@@ -1,0 +1,5 @@
+proxies/path directory contains a kind of lebowski proxy that is based on a particular sproutcore path.  Sproutcore is object oriented but pages can be composed of a mixture of object classes which are not defined by an explicit overarching class.
+
+A path proxy allows you to define a lebowski proxy as if there was a corresponding sproutcore class located at that path location in the target application.  This allows for much underlying application complexity to be abstracted away leaving the testers with simple and easy to maintain interfaces to use in their lebowski test scripts.
+
+Way cool!
