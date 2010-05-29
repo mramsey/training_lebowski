@@ -1,0 +1,7 @@
+proxies directory contains folders representing the types of lebowski custom proxies.
+
+In selenium, a proxy is an object that selenium test scripts directly manipulate.  In selenium-client, the tests and the proxies are written in Ruby.  Sproutcore is based on JavaScript.  When a test script manipulates a local proxy object, selenium client libraries pass the commands to the Selenium RC Server.
+
+Selenium RC Server then passes the selenium commands to the "System Under Test" browser as JavaScript commands.
+
+The SUT browser in turn executes the JavaScript.  SUT responses flow in the reverse direction.
